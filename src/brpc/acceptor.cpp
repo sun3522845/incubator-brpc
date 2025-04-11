@@ -101,7 +101,7 @@ int Acceptor::StartAccept(int listened_fd, int idle_timeout_sec,
     }
     
     _listened_fd = listened_fd;
-    _status = RUNNING;
+    _status = STOPPING;
     return 0;
 }
 
